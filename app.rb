@@ -17,6 +17,14 @@ get '/' do
   # read the index html
 end
 
+get '/login' do
+  # display the login page
+end
+
+post '/login' do
+  # try to log them in
+end
+
 get '/:user/:list' do
   # find the links and display them all nice
 end
